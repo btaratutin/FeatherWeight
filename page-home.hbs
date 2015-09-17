@@ -1,7 +1,13 @@
+
+<link rel="stylesheet" type="text/css" href='{{ asset "css/home.css" }}' />
+
 {{!< default}}
 
 {{! The comment above "< default" means - insert everything in this file into
     the {body} of the default.hbs template, which contains our header/footer. }}
+              
+{{! Everything inside the #post tags pulls data from the page }}
+{{#post}}
 
 {{! The big featured header on the homepage, with the site logo and description }}
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
@@ -24,7 +30,29 @@
 
     <div class='fixed-nav'>
     </div>
+    
+    <section class="post-content">
+        {{content}}
+        
+
+        
+        
+    </section>
+
 
     {{!! After all the posts, we have the previous/next pagination links }}
     
 </main>
+
+{{/post}}
+ASDADS
+
+        {{#foreach posts}}
+post
+            {{#has tag="about-page"}}
+                <hr>
+                    <h3>{{title}}</h3>
+                    <div>{{content}}</div>
+                <hr>
+            {{/has}}
+        {{/foreach}}

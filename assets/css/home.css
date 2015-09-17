@@ -1,0 +1,5 @@
+
+/* For extra ps between posts */
+.page-home .post-content > p {
+    margin: 0;
+}
