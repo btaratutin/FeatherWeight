@@ -5,17 +5,16 @@
 
 {{! The big featured header on the homepage, with the site logo and description }}
 <header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
-    <div class="vertical">
-        <div id="site-head-content" class="inner">
+    <div class="vertical" id="site-head-content">
+            {{#if @blog.logo}}<a id="blog-logo" class="vertical" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+            <h1 class="blog-title vertical">{{@blog.title}}</h1>
+            <h2 class="blog-description vertical">{{@blog.description}}</h2>
 
-            {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
-            <h1 class="blog-title">{{@blog.title}}</h1>
-            <h2 class="blog-description">{{@blog.description}}</h2>
-
-            <a class='btn first'>Take a tour</a>
-            <a class='btn last'>Cut to the chase</a><br>
+<!--
+            <a class='btn first vertical'>Take a tour</a>
+            <a class='btn last vertical'>Cut to the chase</a><br>
             <i id='header-arrow' class="fa fa-angle-down"></i>
-        </div>
+-->
     </div>
 
 </header>
