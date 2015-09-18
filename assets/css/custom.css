@@ -1,0 +1,34 @@
+
+/*
+    Page Components
+*/
+.date-published {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+
+/*
+    Tagged Page Components
+*/
+.visual-tagged-page {
+    
+}
+
+
+
+/*
+    Fonts
+*/
+.font-monospace,
+.font-monospace h2, 
+.font-monospace p {
+    font-family: monospace;
+}
+
+.font-sansserif {
+    font-family: 'Open Sans';
+}

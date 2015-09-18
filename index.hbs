@@ -28,7 +28,6 @@
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
     
-    {{#has tag="home-page"}}
     <div class='post-holder'>
         
             {{#if @first}}
@@ -52,7 +51,6 @@
         </article>
         <div class='post-after'></div>
     </div>
-                    {{/has}}
 
     {{/foreach}}
 

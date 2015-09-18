@@ -63,9 +63,13 @@ var $sitehead = $('#site-head');
 		$('.post.last').next('.post-after').hide();
 		if($sitehead.length) { 
 			$(window).scroll( function () {
+                
 				var w = $(window).scrollTop();
 				var g = $sitehead.offset().top;
 				var h = $sitehead.offset().top + $sitehead.height()-100;
+                
+                // Custom Code
+                checkNavHeaderConflict(w);
 				
 				var paralex = 30 + w/13 + "%";
 				$sitehead.css("background-position-y", paralex);
