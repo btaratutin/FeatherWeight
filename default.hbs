@@ -25,6 +25,13 @@
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href='{{ asset "css/custom.css" }}' />
     <link rel="stylesheet" type="text/css" href='{{ asset "css/screen.css" }}' />
+    
+    <!-- External -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 
@@ -50,11 +57,13 @@
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
+    
+    
     {{! The main JavaScript file for GhostScroll }}
     <script type="text/javascript" src='{{asset "js/icons.js"}}'></script>
     <script type="text/javascript" src='{{asset "js/custom.js"}}'></script>
     <script type="text/javascript" src='{{asset "js/index.js"}}'></script>
-    <script type="text/javascript" src="{{asset "js/jquery.ghost-town.min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/jquery.ghost-town.js"}}"></script>
     
 
 
