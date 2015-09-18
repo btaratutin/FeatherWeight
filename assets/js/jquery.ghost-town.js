@@ -10,7 +10,7 @@
         feed: '/rss',
         limit: 0,
         content: function(post) {
-            return '<li><a href="' + post.url + '""><strong>' + post.title + '</strong><br /><img src="' + post.img + '"/><br /><small>' + post.pubDate + '</small></a></li>';
+            return '<li class="col-xs-6"><a href="' + post.url + '""><strong>' + post.title + '</strong><br /><img src="' + post.img + '"/><br /><small>' + post.pubDate + '</small></a></li>';
         }
     }
 
