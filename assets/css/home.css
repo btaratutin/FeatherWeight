@@ -2,6 +2,11 @@
     padding: 0;
 }
 
+/* Spacing between title and content */
+.post-title {
+    margin-bottom: 10px;
+}
+
 
 /* more spacing for paragraphs */
 .page-home p {

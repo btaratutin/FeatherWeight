@@ -2,9 +2,9 @@
 console.log("custom js works");
 
 function pastelColors(){
-    var r = (Math.round(Math.random()* 170) + 30).toString(16);
-    var g = (Math.round(Math.random()* 170) + 30).toString(16);
-    var b = (Math.round(Math.random()* 170) + 30).toString(16);
+    var r = (Math.round(Math.random()* 170) + 50).toString(16);
+    var g = (Math.round(Math.random()* 170) + 50).toString(16);
+    var b = (Math.round(Math.random()* 170) + 50).toString(16);
     return '#' + r + g + b;
 }
 
