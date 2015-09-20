@@ -907,6 +907,7 @@ a.fn-item.active {
    ========================================================================== */
 
 @media only screen and (max-width: 1130px) {
+/*
     .fixed-nav {
         opacity: 1;
         position: fixed;
@@ -918,6 +919,7 @@ a.fn-item.active {
         text-align: center;
         padding: 4px;
     }
+*/
     a.fn-item {
         display: inline;
         margin-left: 10px;
