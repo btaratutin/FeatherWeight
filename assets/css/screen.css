@@ -928,6 +928,7 @@ a.fn-item.active {
     .post-holder {
         padding-top: 20px;
     }
+/*
     #site-head {
         -webkit-box-sizing: border-box; 
         -moz-box-sizing: border-box;
@@ -938,6 +939,7 @@ a.fn-item.active {
         margin-bottom: 0rem;
         background-position-y: 50%;
     }
+*/
 
     .blog-title {
         font-size: 4rem;
@@ -1014,10 +1016,12 @@ a.fn-item.active {
         line-height: 1.6em;
     }
 
+/*
     #site-head {
         padding: 10% 0;
         height: 65%;
     }
+*/
     #header-arrow {
         display: none;
     }
